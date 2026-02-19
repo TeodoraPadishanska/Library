@@ -27,7 +27,7 @@ public class Main {
 		Book book6 = new EBook("Moby Dick", "Herman Melville", 0, 1.00);
 		avalibleBooks.add(book6);
 		
-		System.out.println("\n            Avalible books         ");
+		System.out.println("\n            Available books         ");
 		for(Book b : avalibleBooks) {
 			System.out.println(b);
 		}
