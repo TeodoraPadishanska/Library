@@ -8,21 +8,6 @@ public abstract class Book {
 	int availableCopies;
 	double baseRate;		//такса на ден
 	static int nextId = 1;
-//	String line = "=========== LIBRARY INVOICE ==========="+
-//			"\n Member: " + 
-//			"\n Borrowing details:";
-	
-	
-//	try {
-//		int a = 5 / 0;
-//		
-//	} catch(ArithmeticException e){
-//		System.out.println("Error: cannot devide by 0");
-//	}
-//	finally {
-//		
-//	}
-	
 	
 	Book(String title, String author, int availableCopies, double baseRate){
 		this.title = title;
@@ -81,10 +66,6 @@ public abstract class Book {
 	public String category() {
 		return " [BOOK] ";
 	}
-//	public void addLine(Borrowing borrowing) {
-//		line+="\n Book: " + getTitle() + category() + " fee: " + getBaseRate() + " * " + borrowing.days +
-//				" days = " + calculateFee(borrowing);
-//	}
 	
 	public String toString() {
 		return "#" + id + " " + getTitle() + category() + getAvailableCopies() + " copies available";
