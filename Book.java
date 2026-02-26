@@ -68,7 +68,8 @@ public abstract class Book {
 	}
 	
 	public String toString() {
-		return "#" + id + " " + getTitle() + category() + getAvailableCopies() + " copies available";
+		return "#" + id + " " + getTitle() + category() 
+				+ getAvailableCopies() + " copies available";
 	}
 	
 	

@@ -56,10 +56,10 @@ public class Main {
 						}
 					}
 				}
-//				if(borrowing.book.equals(null)) {
-//					System.out.println("Invalid option. No books with this id number.");
-//					return;
-//				}
+				if(borrowing.book == null) {
+					System.out.println("Invalid option. No books with this id number.");
+					return;
+				}
 				System.out.println("Number of days: ");
 				borrowing.days = scan.nextInt();
 				borrowing.member = member;

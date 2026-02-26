@@ -17,8 +17,5 @@ public class EBook extends Book{
 	public String category() {
 		return " [EBOOK] ";
 	}
-//	@Override
-//	public String line(Borrowing borrowing) {
-//		return null;
-//	}
+
 }

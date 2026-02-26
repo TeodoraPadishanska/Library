@@ -19,3 +19,7 @@ public class Member {
 		return totalFee;
 	}
 }
+
+
+
+
